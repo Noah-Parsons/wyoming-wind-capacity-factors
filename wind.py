@@ -61,7 +61,7 @@ def monthly_reported():
     return pd.DataFrame(rows)
 
 
-STAGED = "/mnt/user-data/uploads/Desktop/Wyoming wind capacity factors/data"
+STAGED = "data"   # ERA5 extracts, one JSON file per grid cell
 
 
 def era5(pid, lat, lon):
